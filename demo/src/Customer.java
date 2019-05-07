@@ -1,7 +1,11 @@
+import java.util.Random;
+
 public class Customer {
 
+    private static Random RANDOM = new Random();
+
     public Customer(String name, int salary) {
-        this.id = "42";
+        this.id = String.valueOf(RANDOM.nextInt(1000));
         this.name = name;
         this.salary = salary;
     }
@@ -12,6 +16,10 @@ public class Customer {
 
     public int getSalary() {
         return salary;
+    }
+
+    public int hashCode() {
+        return 73;
     }
 
     public String toString() {

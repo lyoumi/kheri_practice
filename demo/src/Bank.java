@@ -1,10 +1,20 @@
 public class Bank {
 
-    public Bank(String id, String name) {
+    public Bank(String id, String name, Long minSalary) {
         this.id = id;
         this.name = name;
+        this.minSalary = minSalary;
     }
 
-    public String id;
-    public String name;
+    private String id;
+    private String name;
+    private Long minSalary;
+
+    public String getName() {
+        return name;
+    }
+
+    public Long getMinSalary() {
+        return minSalary;
+    }
 }
