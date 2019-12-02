@@ -8,9 +8,11 @@ import com.huni.web.service.impl.BankUserServiceImpl;
 import com.huni.web.store.UserStore;
 import com.huni.web.store.impl.UserStoreImpl;
 
+import java.io.IOException;
+
 public class MainClass {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         BankCreditService bankCreditService = new BankCreditServiceImpl();
         UserStore userStore = new UserStoreImpl();
         BankUserService bankUserService = new BankUserServiceImpl(userStore);

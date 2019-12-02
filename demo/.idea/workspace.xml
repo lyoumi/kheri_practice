@@ -2,27 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fba5eccd-ed66-46e7-b972-0948eb1ce1a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/huni/web/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/huni/web/controller/BankController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/huni/web/data/CreditHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/huni/web/data/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/huni/web/exceptions/SimpleCustomException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/huni/web/service/BankCreditService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/huni/web/service/BankUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/huni/web/service/impl/BankCreditServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/huni/web/service/impl/BankUserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/huni/web/store/UserStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/huni/web/store/impl/UserStoreImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo/Bank.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo/BankDepartment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bank.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BankDepartment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo/com/huni/web/data/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo/com/huni/web/data/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo/com/huni/web/store/impl/UserStoreImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo/com/huni/web/store/impl/UserStoreImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/huni/web/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/huni/web/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/huni/web/data/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/huni/web/data/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/huni/web/store/UserStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/huni/web/store/UserStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/huni/web/store/impl/UserStoreImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/huni/web/store/impl/UserStoreImpl.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,27 +74,49 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Java Scratch.Scratch">
-    <configuration name="BankDepartment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BankDepartment" />
+  <component name="RunManager" selected="Application.UserStoreImpl">
+    <configuration name="Scratch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huni.web.Scratch" />
       <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huni.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huni.web.Test" />
       <module name="demo" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huni.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huni.MainClass" />
+    <configuration name="UserStoreImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huni.web.store.impl.UserStoreImpl" />
       <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huni.web.store.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scratch (1)" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_21.java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -121,16 +129,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.BankDepartment" />
-      <item itemvalue="Application.MainClass" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Scratch" />
       <item itemvalue="Java Scratch.Scratch" />
+      <item itemvalue="Java Scratch.Scratch (1)" />
+      <item itemvalue="Application.UserStoreImpl" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UserStoreImpl" />
+        <item itemvalue="Application.Scratch" />
+        <item itemvalue="Java Scratch.Scratch (1)" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Java Scratch.Scratch" />
-        <item itemvalue="Application.MainClass" />
-        <item itemvalue="Application.BankDepartment" />
       </list>
     </recent_temporary>
   </component>
@@ -146,5 +157,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/huni/web/store/impl/UserStoreImpl.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
